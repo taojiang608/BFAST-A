@@ -1,0 +1,30 @@
+{
+  "study": "BFAST Cohort A - Reviewer 3 Comment 3",
+  "methods": "Screening (SCRN) positive cTF, natural logarithm; ADTR ABLFL=Y; Pearson r; 95% CI by Fisher's z; unadjusted r-squared.",
+  "input_ctf_file": "bfast_oSpl_cohortA.withDBIannotations.BlC3Td.csv",
+  "plasma_data_audit": {
+    "baseline_plasma_rows": 87,
+    "unique_patients_with_screening_plasma": 87,
+    "nonmissing_ctf": 87,
+    "positive_ctf": 87,
+    "zero_or_negative_ctf": 0,
+    "missing_ctf": 0
+  },
+  "analysis": {
+    "provisional": {
+      "status": "PROVISIONAL_ONLY_NOT_REPRODUCED",
+      "reason": "ADTR with baseline SLD is not supplied; only the rounded manuscript r is known.",
+      "assumed_n_complete_pairs": 87,
+      "reported_r_rounded": 0.24,
+      "reported_p_rounded": 0.024,
+      "95CI_fisher_from_reported_r_and_assumed_n": [
+        0.030914655642627065,
+        0.42896183792926934
+      ],
+      "r_squared_from_reported_rounded_r": 0.0576,
+      "variance_explained_percent_from_reported_r": 5.76,
+      "p_implied_by_rounded_r_and_assumed_n": 0.02515424141303144,
+      "interpretation": "An unadjusted weak positive linear correlation; no causal inference."
+    }
+  }
+}
